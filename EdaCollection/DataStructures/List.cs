@@ -162,7 +162,7 @@ namespace EdaCollection.DataStructures
             bool toRet = false;
             int index = 0;
             index = this.IndexOf(item, index);
-            while (index > 0)
+            while (index >= 0)
             {
                 this.RemoveAt(index);
                 index = this.IndexOf(item, index);

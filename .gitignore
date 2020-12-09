@@ -47,3 +47,5 @@ Ankh.NoLoad
 .svn
 /Backup
 /UpgradeLog.htm
+/packages
+/.vs
